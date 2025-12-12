@@ -15,7 +15,7 @@ Steps:
 
 """
 
-# Code 
+# Code for the solution
 
 def convertToFahrenheit(degreescelsius):
     result = degreescelsius * (9/5) + 32
