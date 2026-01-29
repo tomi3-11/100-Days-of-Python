@@ -1,12 +1,12 @@
 def main():
     num = int(input("Enter number: "))
-    choice = int(input("Check\n\t1. Odd\n\t2. Even\nEnter Choice: "))
+    choice = int(input("Check\n\t1. Even\n\t2. Odd\nEnter Choice: "))
     
     if choice == 1:
         result = is_even(num)
         print(result)
     elif choice == 2:
-        res = is_odd(num)
+        result = is_odd(num)
         print(result)
     else:
         print("Invalid Input")
