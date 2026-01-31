@@ -19,7 +19,9 @@ Functions:
 """
 
 def main():
-   
+    
+
+    # Tests for all the functions called.
     assert area(10, 10) == 100
     assert area(0, 9999) == 0
     assert area(5, 8) == 40
