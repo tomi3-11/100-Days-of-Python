@@ -5,22 +5,60 @@ From Exercise 1 to 42 plus more exercises
 
 # Project structure
 
-```cpp
-project_folder/
-    |
-    |--Exercise1/
-    |	   |--Helloworld.py
-    |
-    |--Exercise2/
-    |	   |--temperature_conversion.py
-    |
-    |-- ...
-    |--README.md
-    |--.gitattribute
-    |--.gitignore
-    
-    
+```sh
+.
+├── C-implementation
+│   ├── Exercise10
+│   │   ├── find
+│   │   └── findAndReplace.c
+│   ├── Exercise7
+│   │   ├── ascii
+│   │   └── ascii_table.c
+│   ├── Exercise8
+│   │   ├── file
+│   │   ├── fileHandling.c
+│   │   └── greet.txt
+│   └── Exercise9
+│       ├── chess
+│       └── chess_colors.c
+├── Exercise1
+│   └── hello.py
+├── Exercise10
+│   └── find_and_replace.py
+├── Exercise11
+│   └── get_hours_minutes_seconds.py
+├── Exercise12
+│   ├── get_smallest.py
+│   ├── __pycache__
+│   │   └── get_smallest.cpython-314.pyc
+│   └── test_get_smallest.py
+├── Exercise13
+│   └── get_sum_and_product.py
+├── Exercise2
+│   └── temperature_conservation.py
+├── Exercise3
+│   ├── is_even_or_odd.py
+│   └── is_even_or_odd.py~
+├── Exercise4
+│   └── area_volume.py
+├── Exercise5
+│   └── fizz_buzz_exercise.py
+├── Exercise6
+│   └── ordinal_numbers.py
+├── Exercise7
+│   └── ascii_table.py
+├── Exercise8
+│   ├── file_input_output.py
+│   └── greet.txt
+├── Exercise9
+│   └── chess_square_colors.py
+├── main.py
+├── pyproject.toml
+├── PythonProgrammingExercisesGentlyExplained.pdf
+├── README.md
+└── uv.lock
 
+20 directories, 31 files
 
 ```
 
