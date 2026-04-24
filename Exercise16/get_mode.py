@@ -13,15 +13,15 @@ def mode(numbers: list[int]):
 
     for num in numbers:
         if num not in freq:
-            freq[num] = 1
+            freq[num] = 0
         else:
             freq[num] += 1
 
-    mode = 0
+    mode_val = 0
     for key in freq:
-       if freq[key] > mode:
-           mode = key
-    return mode
+       if freq[key] > mode_val:
+           mode_val = key
+    return mode_val
 
 
 if __name__ == "__main__":
